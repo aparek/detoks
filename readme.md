@@ -1,4 +1,4 @@
-#Sleep spindle and K-complex detection for sleep EEG using sparse optimization
+Sleep spindle and K-complex detection for sleep EEG using sparse optimization
 
 This repository houses the demo code for the following paper:
 A. Parekh, I.W. Selesnick, D. Rapaport, I.Ayappa, Detection of K-complexes and sleep spindles (DETOKS) using sparse optimization,
