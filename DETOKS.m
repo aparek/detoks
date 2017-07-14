@@ -34,10 +34,10 @@ H = @(x) A\(B*x);                       % H: high-pass filter
 G = mu*(A*A') + 2*(B*B');               % G: Banded system
 bn = nan + zeros(d, 1);     	        % bn : nan's to extend f to length N
 
-% For STFT parameters see I. W. Selesnick, ìShort-time Fourier transform and its inverse,î 
+% For STFT parameters see I. W. Selesnick, ‚ÄúShort-time Fourier transform and its inverse,‚Äù 
 % http://cnx.org/content/m32294/, 2009.
 % DETOKS uses DFT length of the next power of 2 to the sampling frequency.
-% For eg., if sampling frequency is 200 Hz, the DFT length is 256 with 50%
+% For eg., if sampling frequency is 200 Hz, the DFT length is 256 with 25%
 % overlap
 
 [A1,A1H,~] = MakeTransforms('STFT',N, [2^nextpow2(fs) 4 2 2^nextpow2(fs)]); 
