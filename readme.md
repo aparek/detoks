@@ -9,4 +9,4 @@ Please make sure to cite the above paper when using the code.
 For a demo, run the demo.m file. 
 
 Perm. Contact: Ankit Parekh
-ankit.parekh@nyu.edu
+ankit.parekh@mssm.edu
